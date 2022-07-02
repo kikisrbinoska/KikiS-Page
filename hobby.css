@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header {
+    padding-left:20px ;
+    padding-right: 45px;
+    padding-top: -20px;
+    background: linear-gradient(to bottom,#66ffff 0%,#ff66cc 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.nav a {
+    color:black;
+    text-decoration: none;
+    display: block;
+
+
+}
+.nav a:hover {
+    color: #FB7AFC;
+
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav li {
+    margin-left: 20px ;
+}
+.container {
+//width: 100%;
+    height:800px ;
+    background: linear-gradient(to top, #ff99ff 0%, #ccffff 100%);
+    display: flex;
+    justify-content: center;
+
+}
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.colomn1 .photo1 {
+    background: url("book.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+.colomn1 .text1 {
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.colomn2 .photo2 {
+    background: url("footbal.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+.colomn2 .text2 {
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.colomn3 .photo3 {
+    background: url("rollers.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+.colomn3 .text3 {
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.colomn4 .photo4 {
+    background: url("fashion1.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+.colomn4 .text4 {
+    margin-left:30px ;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, #ff66ff 0%, #66ffff 100%);
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    font-size: 20px;
+}
+.footer p {
+    margin-top: 50px;
+}
